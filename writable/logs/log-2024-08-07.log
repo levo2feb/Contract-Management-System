@@ -1,0 +1,462 @@
+INFO - 2024-08-07 00:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:16:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:16:13 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: report]
+in APPPATH\Views\report.php on line 94.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('report', [], true)
+ 4 APPPATH\Controllers\Report.php(12): view('report', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:16:37 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: report]
+in APPPATH\Views\report.php on line 94.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('report', [], true)
+ 4 APPPATH\Controllers\Report.php(12): view('report', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:26:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:26:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:26:27 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(58): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:26:35 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(58): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:26:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:27:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:32:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:33:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:38:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:38:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(58): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:39:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:39:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:42:10 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(58): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:42:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(58): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:42:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:42:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(58): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:43:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:45:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 00:45:53 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(58): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 00:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 00:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 09:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 09:48:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 09:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 09:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 09:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 09:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 09:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:02:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 10:02:42 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "C:\Users\ASUS\OneDrive\Desktop\SEM\xampp\htdocs\ci4\writable\uploads/1723024240_cb048e9756505c80cfe7.pdf"
+[Method: GET, Route: contract/download/1723024240_cb048e9756505c80cfe7.pdf]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_cb048e9756505c80cfe7.pdf')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(106): CodeIgniter\Files\File->__construct('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_cb048e9756505c80cfe7.pdf', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(739): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_cb048e9756505c80cfe7.pdf')
+ 4 APPPATH\Controllers\Contract.php(78): CodeIgniter\HTTP\Response->download('1723024240_cb048e9756505c80cfe7.pdf', null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->download('1723024240_cb048e9756505c80cfe7.pdf')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 10:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 10:05:18 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: 1723024240_cb048e9756505c80cfe7.pdf
+[Method: GET, Route: contract/download/1723024240_cb048e9756505c80cfe7.pdf]
+in APPPATH\Controllers\Contract.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->download('1723024240_cb048e9756505c80cfe7.pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 10:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:06:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 10:06:41 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: 1723024240_88930ddb08e165fbb64c.pdf
+[Method: GET, Route: contract/download/1723024240_88930ddb08e165fbb64c.pdf]
+in APPPATH\Controllers\Contract.php on line 82.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->download('1723024240_88930ddb08e165fbb64c.pdf')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 10:07:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 10:07:14 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "C:\Users\ASUS\OneDrive\Desktop\SEM\xampp\htdocs\ci4\writable\uploads/1723024240_88930ddb08e165fbb64c.pdf"
+[Method: GET, Route: contract/download/1723024240_88930ddb08e165fbb64c.pdf]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_88930ddb08e165fbb64c.pdf')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(106): CodeIgniter\Files\File->__construct('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_88930ddb08e165fbb64c.pdf', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(739): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_88930ddb08e165fbb64c.pdf')
+ 4 APPPATH\Controllers\Contract.php(85): CodeIgniter\HTTP\Response->download('1723024240_88930ddb08e165fbb64c.pdf', null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->download('1723024240_88930ddb08e165fbb64c.pdf')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 10:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 10:07:17 --> CodeIgniter\Files\Exceptions\FileNotFoundException: File not found: "C:\Users\ASUS\OneDrive\Desktop\SEM\xampp\htdocs\ci4\writable\uploads/1723024240_cb048e9756505c80cfe7.pdf"
+[Method: GET, Route: contract/download/1723024240_cb048e9756505c80cfe7.pdf]
+in SYSTEMPATH\Files\File.php on line 51.
+ 1 SYSTEMPATH\Files\File.php(51): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_cb048e9756505c80cfe7.pdf')
+ 2 SYSTEMPATH\HTTP\DownloadResponse.php(106): CodeIgniter\Files\File->__construct('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_cb048e9756505c80cfe7.pdf', true)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(739): CodeIgniter\HTTP\DownloadResponse->setFilePath('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\writable\\uploads/1723024240_cb048e9756505c80cfe7.pdf')
+ 4 APPPATH\Controllers\Contract.php(85): CodeIgniter\HTTP\Response->download('1723024240_cb048e9756505c80cfe7.pdf', null)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->download('1723024240_cb048e9756505c80cfe7.pdf')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 10:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:41:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:41:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 10:49:47 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 10:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 10:50:29 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 10:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:52:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 10:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:07:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 11:08:48 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 11:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 11:09:07 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 11:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 11:12:17 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 11:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 11:12:21 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 11:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 11:12:33 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 11:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 11:12:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 11:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-07 11:12:58 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: contract/edit/stylelogin.css]
+in APPPATH\Views\edit_contract.php on line 165.
+ 1 APPPATH\Views\edit_contract.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php', 165)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\Users\\ASUS\\OneDrive\\Desktop\\SEM\\xampp\\htdocs\\ci4\\app\\Views\\edit_contract.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('edit_contract', [], true)
+ 5 APPPATH\Controllers\Contract.php(105): view('edit_contract', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Contract->edit('stylelogin.css')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contract))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-07 11:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-07 11:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
