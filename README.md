@@ -68,12 +68,14 @@ Visit: http://localhost:8080
 
 ## 📷 Screenshots
 
+- Login page:[Images/Login page.png](https://github.com/levo2feb/Contract-Management-System/blob/main/Images/Login%20page.png)
+  
 - Creating new contract:
-<img src="https://github.com/user-attachments/assets/8392fa0c-08c6-42b6-a191-4478eba0e84c" alt="Picture1" width="250" height="200" />
+[Images/Creating new contract.png](https://github.com/levo2feb/Contract-Management-System/blob/main/Images/Creating%20new%20contract.png)
 
 
 - Displaying all saved data:
- <img src="https://github.com/user-attachments/assets/87481152-0f2a-46bf-b0dc-eee6fa08364f" alt="Picture2" width="700" height="200"   />
+[Images/Displaying  contracts.png](https://github.com/levo2feb/Contract-Management-System/blob/main/Images/Displaying%20%20contracts.png)
 
 
 
