@@ -40,31 +40,36 @@ This application follows the default CodeIgniter 4 directory structure: <br>
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the Repository
-
-git clone https://github.com/your-username/contract-management-ci4.git
+```
+https://github.com/your-username/contract-management-ci4.git
 cd contract-management-ci4
-
+```
 ### 2. Configure Environment
 - Copy .env or env to set up your local environment: "cp env .env"<br>
 
 - Update database details in .env:<br>
-  - database.default.hostname = localhost<br>
-  - database.default.database = ci4<br>
-  - database.default.username = root<br>
-  - database.default.password =<br>
-
-### 3. Install Dependencies
+```
+  database.default.hostname = localhost<br>
+  database.default.database = ci4
+  database.default.username = root
+  database.default.password =
+```
+### 3. Install Dependencies 
+```
 composer install
+```
 
 ### 4. Start Development Server
+```
 php spark serve
 Visit: http://localhost:8080 
-
+```
 
 ## 🔐Login Credentials (for testing)
 - You can modify/add users in the users table of the database manually or through seeders.<br>
-  - Username: admin
-  - Password: admin123
+  ```
+  Username: admin
+  Password: admin123
 
 ## 📷 Screenshots
 
