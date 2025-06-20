@@ -5,17 +5,18 @@ A web-based Contract Management System built using **CodeIgniter 4** for efficie
 ## 📁 Project Structure
 
 This application follows the default CodeIgniter 4 directory structure: <br>
-/ci4 <br>
-│ <br>
-├── app/ # Application-specific code (Controllers, Models, Views) <br>
-├── public/ # Web root                                            <br>
-├── system/ # CodeIgniter core framework                          <br>
-├── writable/ # Writable directory (cache, logs, uploads)         <br>
-├── tests/ # Unit and Feature tests                               <br>
-├── .env # Environment configuration                              <br>
-├── composer.json # Dependencies and autoload                     <br>
-├── spark # CodeIgniter CLI tool                                  <br>
-
+```
+/ci4 
+│ 
+├── app/ # Application-specific code (Controllers, Models, Views) 
+├── public/ # Web root                                            
+├── system/ # CodeIgniter core framework                          
+├── writable/ # Writable directory (cache, logs, uploads)         
+├── tests/ # Unit and Feature tests                               
+├── .env # Environment configuration                              
+├── composer.json # Dependencies and autoload                     
+├── spark # CodeIgniter CLI tool                                  
+```
 
 ## ✨ Features
 
@@ -41,45 +42,45 @@ This application follows the default CodeIgniter 4 directory structure: <br>
 
 ### 1. Clone the Repository
 ```
-https://github.com/your-username/contract-management-ci4.git
-cd contract-management-ci4
+https://github.com/levo2feb/Contract-Management-System
 ```
 ### 2. Configure Environment
-- Copy .env or env to set up your local environment: "cp env .env"<br>
-
+- Copy .env or env to set up your local environment:
+  ```
+  cp env .env
+  ```
 - Update database details in .env:<br>
-```
-  database.default.hostname = localhost<br>
+  ```
+  database.default.hostname = localhost
   database.default.database = ci4
   database.default.username = root
   database.default.password =
-```
+  ```
 ### 3. Install Dependencies 
-```
-composer install
-```
+    composer install
+  
 
 ### 4. Start Development Server
-```
-php spark serve
-Visit: http://localhost:8080 
-```
+     php spark serve
+     Visit: http://localhost:8080
+  
 
 ## 🔐Login Credentials (for testing)
 - You can modify/add users in the users table of the database manually or through seeders.<br>
   ```
   Username: admin
   Password: admin123
-
+  ```
 ## 📷 Screenshots
 
-- Login page:[Images/Login page.png](https://github.com/levo2feb/Contract-Management-System/blob/main/Images/Login%20page.png)
+- Login page - 
+[Images/Login page.png](https://github.com/levo2feb/Contract-Management-System/blob/main/Images/Login%20page.png)
   
-- Creating new contract:
+- Creating new contract - 
 [Images/Creating new contract.png](https://github.com/levo2feb/Contract-Management-System/blob/main/Images/Creating%20new%20contract.png)
 
 
-- Displaying all saved data:
+- Displaying all saved data - 
 [Images/Displaying  contracts.png](https://github.com/levo2feb/Contract-Management-System/blob/main/Images/Displaying%20%20contracts.png)
 
 
