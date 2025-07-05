@@ -2,6 +2,7 @@
 
 A web-based Contract Management System built using **CodeIgniter 4** for efficient tracking, storing, and managing contracts. Developed as part of an internship project at **RDSO (Research Designs and Standards Organisation)**.
 
+**Internship Completion Certificate** [click here to view full certificate ](https://github.com/levo2feb/Contract-Management-System/blob/main/Images/RDSO%20certificate.pdf)
 ## 📁 Project Structure
 
 This application follows the default CodeIgniter 4 directory structure: <br>
